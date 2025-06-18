@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Todo List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Todo List</h1>
+            <p>Stay organized and get things done</p>
+        </div>
+
+        <div class="todo-input-section">
+            <div class="input-container">
+                <input type="text" id="todoInput" placeholder="Add a new task..." />
+                <button id="addBtn">Add Task</button>
+            </div>
+            <div class="stats">
+                <span id="remainingCount">0 remaining</span>
+                <button id="clearCompleted" class="clear-completed" disabled>Clear Completed</button>
+            </div>
+        </div>
+
+        <div class="todo-list" id="todoList">
+            <div class="empty-state" id="emptyState">
+                <div class="empty-state-icon">📝</div>
+                <p>No tasks yet. Add one above!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
