@@ -2,7 +2,7 @@
 
 A simple, responsive, and user-friendly To-Do List web application built using HTML, CSS, and JavaScript.
 
-🔗 **Live Demo:** [Click here to try it](https://abinayapradeep.github.io/To-Do-List/) *(Update if different)*
+🔗 **Live Demo:** [Click here to try it](https://abinayapradeep.github.io/To-do-List/) 
 
 ---
 
@@ -26,7 +26,7 @@ A simple, responsive, and user-friendly To-Do List web application built using H
 
 ## 🚀 How to Use
 
-1. Visit the [Live Site](https://abinayapradeep.github.io/To-Do-List/)
+1. Visit the [Live Site](https://abinayapradeep.github.io/To-do-List/)
 2. Type a task and press "Add"
 3. Click the checkbox to mark as complete
 4. Use the ❌ button to delete a task
